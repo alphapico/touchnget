@@ -1,0 +1,315 @@
+{
+    'doas': [
+    {
+        "title": "Doa Kebahagian Dunia & Akhirat",
+        "arabic": "رَبَّنَا ءَاتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan peliharalah kami dari azab neraka",
+        "surah": "(Al-Baqarah : 201)"
+    }
+    ,
+    {
+        "title": "Doa Diberi Kesabaran Menghadapi Musuh (1)",
+        "arabic": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Limpahkanlah sabar kepada kami, dan teguhkanlah tapak pendirian kami serta menangkanlah kami terhadap kaum yang kafir",
+        "surah": "(Al-Baqarah : 250)"
+    }
+    ,
+    {
+        "title": "Doa Diberi Kesabaran Menghadapi Musuh (2)",
+        "arabic": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, limpahkanlah kesabaran kepada kami, dan matikanlah kami dalam keadaan Islam (berserah bulat-bulat kepadaMu)",
+        "surah": "(Al-A'raf : 126)"
+    }
+    ,
+    {
+        "title": "Doa Supaya dimudahkan Urusan",
+        "arabic": "ّرَبَّنَا لاَ تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا رَبَّنَا وَلاَ تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا رَبَّنَا وَلاَ تُحَمِّلْنَا مَا لاَ طَاقَةَ لَنَا بِهِ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلاَنَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Janganlah Engkau mengirakan kami salah jika kami lupa atau kami tersalah. Wahai Tuhan kami ! Janganlah Engkau bebankan kepada kami bebanan yang berat sebagaimana yang telah Engkau bebankan kepada orang-orang yang terdahulu daripada kami. Wahai Tuhan kami! Janganlah Engkau pikulkan kepada kami apa yang kami tidak terdaya memikulnya. Dan maafkanlah kesalahan kami, serta ampunkanlah dosa kami, dan berilah rahmat kepada kami. Engkaulah Penolong kami; oleh itu, tolonglah kami untuk mencapai kemenangan terhadap kaum-kaum yang kafir",
+        "surah": "(Al-Baqarah : 286)"
+    }
+    ,
+    {
+        "title": "Doa Supaya Mendapat Rahmat",
+        "arabic": "ّرَبَّنَا لاَ تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Janganlah Engkau memesongkan hati kami sesudah Engkau beri petunjuk kepada kami, dan kurniakanlah kepada kami limpah rahmat dari sisiMu; sesungguhnya Engkau jualah Tuhan Yang melimpah-limpah pemberianNya",
+        "surah": "(A-li 'Imran : 8)"
+    }
+    ,
+    {
+        "title": "Doa Ketika Mendapat Kesusahan",
+        "arabic": "ّلاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Sesungguhnya tiada Tuhan (yang dapat menolong) melainkan Engkau (ya Allah)! Maha Suci Engkau (daripada melakukan aniaya, tolongkanlah daku)! Sesungguhnya aku adalah dari orang-orang yang menganiaya diri sendiri",
+        "surah": "(Al-Anbiya' : 87)"
+    }
+    ,
+    {
+        "title": "Doa Supaya diampunkan Dosa-dosa (1)",
+        "arabic": "ّرَبَّنَا إِنَّنَا ءَامَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Sesungguhnya kami telah beriman, oleh itu, ampunkanlah dosa-dosa kami dan peliharalah kami dari azab neraka",
+        "surah": "(A-li 'Imran : 16)"
+    }
+    ,
+    {
+        "title": "Doa Supaya diampunkan Dosa-dosa (2)",
+        "arabic": "ّرَبَّنَا إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِي لِلإِْيمَانِ أَنْ ءَامِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الأَبْرَارِ ، رَبَّنَا وَءَاتِنَا مَا وَعَدْتَنَا عَلَى رُسُلِكَ وَلاَ تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لاَ تُخْلِفُ الْمِيعَادَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Sesungguhnya kami telah mendengar seorang Penyeru (Rasul) yang menyeru kepada iman, katanya: Berimanlah kamu kepada Tuhan kamu, maka kami pun beriman. Wahai Tuhan kami, ampunkanlah dosa-dosa kami, dan hapuskanlah daripada kami kesalahan-kesalahan kami, dan matikanlah kami bersama orang-orang yang berbakti. Wahai Tuhan kami! Berikanlah kepada kami pahala yang telah Engkau janjikan kepada kami melalui Rasul-rasulMu, dan janganlah Engkau hinakan kami pada hari kiamat; sesungguhnya Engkau tidak memungkiri janji",
+        "surah": "(A-li 'Imran : 193/194)"
+    }
+    ,
+    {
+        "title": "Doa Supaya dianugerahkan Kelebihan",
+        "arabic": "ّرَبِّ اغْفِرْ لِي وَهَبْ لِي مُلْكًا لَا يَنْبَغِي لِأَحَدٍ مِنْ بَعْدِي إِنَّكَ أَنْتَ الْوَهَابُ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku! Ampunkanlah kesilapanku, dan kurniakanlah kepadaku sebuah kerajaan (yang tidak ada taranya dan) yang tidak akan ada pada sesiapapun kemudian daripadaku; sesungguhnya Engkaulah yang sentiasa Melimpah kurniaNya",
+        "surah": "(Saad : 35)"
+    }
+    ,
+    {
+        "title": "Doa diletakkan Bersama Orang Benar",
+        "arabic": "ّرَبَّنَا ءَامَنَّا بِمَا أَنْزَلْتَ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Kami telah beriman kepada apa yang telah Engkau turunkan, dan kami mengikut RasulMu; oleh itu suratkanlah kami beserta orang-orang yang menjadi saksi (yang mengakui keesaanMu dan kebenaran RasulMu)",
+        "surah": "(A-li 'Imran : 53)"
+    }
+    ,
+    {
+        "title": "Doa ditetapkan Pendirian",
+        "arabic": "ّرَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Ampunkanlah dosa-dosa kami dan perbuatan kami yang melampau dalam urusan kami, dan teguhkanlah tapak pendirian kami (dalam perjuangan); dan tolonglah kami mencapai kemenangan terhadap kaum yang kafir",
+        "surah": "((A-li 'Imran : 147)"
+    }
+    ,
+    {
+        "title": "Doa diampunkan dari Kezaliman",
+        "arabic": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, kami telah menganiaya diri kami sendiri, dan kalau Engkau tidak mengampunkan kami dan memberi rahmat kepada kami, nescaya menjadilah kami dari orang-orang yang rugi",
+        "surah": "(Al-A'raaf : 23)"
+    }
+    ,
+    {
+        "title": "Doa untuk Menegakkan Kebenaran",
+        "arabic": "رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنْتَ خَيْرُ الْفَاتِحِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, hukumkanlah antara kami dan kaum kami dengan kebenaran (keadilan), kerana Engkau jualah sebaik-baik Hakim",
+        "surah": "(Al-A'raaf : 89)"
+    }
+    ,
+    {
+        "title": "Doa diberikan Rahmat & Petunjuk",
+        "arabic": "رَبَّنَا ءَاتِنَا مِنْ لَدُنْكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Kurniakanlah kami rahmat dari sisiMu, dan berilah kemudahan-kemudahan serta pimpinan kepada kami untuk keselamatan ugama kami",
+        "surah": "(Al-Kahfi : 10)"
+    }
+    ,
+    {
+        "title": "Doa dijauhkan dari Neraka (1)",
+        "arabic": "رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلاً سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ ، رَبَّنَا إِنَّكَ مَنْ تُدْخِلِ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Tidaklah Engkau menjadikan benda-benda ini dengan sia-sia, Maha Suci Engkau, maka peliharalah kami dari azab neraka. Wahai Tuhan kami! Sebenarnya sesiapa yang Engkau masukkan ke dalam neraka maka sesungguhnya Engkau telah menghinakannya, dan orang-orang yang zalim tidak akan beroleh seorang penolong pun",
+        "surah": "(A-li 'Imran : 191/192)"
+    }
+    ,
+    {
+        "title": "Doa dijauhkan dari Neraka (2)",
+        "arabic": "رَبَّنَا اصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ إِنَّ عَذَابَهَا كَانَ غَرَامًا . إِنَّهَا سَاءَتْ مُسْتَقَرًّا وَمُقَامًاٍ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, sisihkanlah azab neraka Jahannam dari kami, sesungguhnya azab seksanya itu adalah mengertikan. Sesungguhnya neraka Jahannam itu tempat penetapan dan tempat tinggal yang amat buruk",
+        "surah": "(Al-Furqaan : 65-66)"
+    }
+    ,
+    {
+        "title": "Doa Minta Pengampunan (1)",
+        "arabic": "رَبَّنَا ءَامَنَّا فَاغْفِرْ لَنَا وَارْحَمْنَا وَأَنْتَ خَيْرُ الرَّاحِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, kami telah beriman; oleh itu ampunkanlah dosa kami serta berilah rahmat kepada kami, dan sememangnya Engkaulah jua sebaik-baik Pemberi rahmat",
+        "surah": "(Al-Mu'minun : 109)"
+    }
+    ,
+    {
+        "title": "Doa Minta Pengampunan (2)",
+        "arabic": "رَبِّ اغْفِرْ وَارْحَمْ وَأَنْتَ خَيْرُ الرَّاحِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, berikanlah ampun dan kurniakan rahmat, dan sememangnya Engkaulah sahaja sebaik-baik Pemberi rahmat!",
+        "surah": "(Al-Mu'minun : 118)"
+    }
+    ,
+    {
+        "title": "Doa dikurniakan Keluarga Bahagia",
+        "arabic": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami, berilah kami beroleh dari isteri-isteri dan zuriat keturunan kami: perkara-perkara yang menyukakan hati melihatnya, dan jadikanlah kami imam ikutan bagi orang-orang yang (mahu) bertaqwa",
+        "surah": "(Al-Furqaan : 74)"
+    }
+    ,
+    {
+        "title": "Doa Kepada Orang-orang Mukmin (1)",
+        "arabic": "رَبَّنَا وَسِعْتَ كُلَّ شَيْءٍ رَحْمَةً وَعِلْمًا فَاغْفِرْ لِلَّذِينَ تَابُوا وَاتَّبَعُوا سَبِيلَكَ وَقِهِمْ عَذَابَ الْجَحِيمِ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! RahmatMu dan IlmuMu meliputi segala-galanya; maka berilah ampun kepada orang-orang yang bertaubat serta menurut jalanMu, dan peliharalah mereka dari azab neraka",
+        "surah": "(Ghaafir : 7)"
+    }
+    ,
+    {
+        "title": "Doa Kepada Orang-orang Mukmin (2)",
+        "arabic": "رَبَّنَا وَأَدْخِلْهُمْ جَنَّاتِ عَدْنٍ الَّتِي وَعَدْتَهُمْ وَمَنْ صَلَحَ مِنْ ءَابَائِهِمْ وَأَزْوَاجِهِمْ وَذُرِّيَّاتِهِمْ إِنَّكَ أَنْتَ الْعَزِيزُ الْحَكِيمُ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Dan masukkanlah mereka ke dalam Syurga 'Adn yang Engkau telah janjikan kepada mereka; dan (masukkanlah bersama-sama mereka): orang-orang yang layak di antara ibu bapa mereka, dan isteri-isteri mereka, serta keturunan mereka. Sesungguhnya Engkaulah jua Yang Maha Kuasa, lagi Maha Bijaksana",
+        "surah": "(Ghaafir : 8)"
+    }
+    ,
+    {
+        "title": "Doa Kepada Orang-orang Terdahulu",
+        "arabic": "رَبَّنَا اغْفِرْ لَنَا وَِلإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ وَلاَ تَجْعَلْ فِي قُلُوبِنَا غِلاًّ لِلَّذِينَ ءَامَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَحِيمٌ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan Kami! Ampunkanlah dosa kami dan dosa saudara-saudara kami yang mendahului kami dalam iman, dan janganlah Engkau jadikan dalam hati perasaan hasad dengki dan dendam terhadap orang-orang yang beriman. Wahai Tuhan kami! Sesungguhnya Engkau Amat Melimpah Belas kasihan dan RahmatMu",
+        "surah": "(Al-Hasyr : 10)"
+    }
+    ,
+    {
+        "title": "Doa Bertawakkal kepada Allah",
+        "arabic": "رَبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ الْمَصِيرُ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Kepada Engkaulah sahaja kami berserah diri, dan kepada Engkaulah kami rujuk bertaubat, serta kepada Engkaulah jua tempat kembali!",
+        "surah": "(Al-Mumtahinah : 4)"
+    }
+    ,
+    {
+        "title": "Doa Mengelak dari Kezaliman (1)",
+        "arabic": "رَبَّنَا لاَ تَجْعَلْنَا فِتْنَةً لِلَّذِينَ كَفَرُوا وَاغْفِرْ لَنَا رَبَّنَا إِنَّكَ أَنْتَ الْعَزِيزُ الْحَكِيمُ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Janganlah Engkau jadikan pendirian dan keyakinan kami terpesong kerana penindasan orang-orang kafir, dan ampunkanlah dosa kami wahai Tuhan kami; sesungguhnya Engkaulah sahaja Yang Maha Kuasa, lagi Maha Bijaksana",
+        "surah": "(Al-Mumtahinah : 5)"
+    }
+    ,
+    {
+        "title": "Doa Mengelak dari Kezaliman (2)",
+        "arabic": "رَبَّنَا لاَ تَجْعَلْنَا مَعَ الْقَوْمِ الظَّالِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Janganlah Engkau jadikan kami bersama orang-orang yang zalim",
+        "surah": "(Al-A'raaf : 47)"
+    }
+    ,
+    {
+        "title": "Doa Mengelak dari Kezaliman (3)",
+        "arabic": "رَبَّنَا لاَ تَجْعَلْنَا فِتْنَةً لِلْقَوْمِ الظَّالِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Janganlah Engkau jadikan kami landasan fitnah kesengsaraan bagi kaum yang zalim ganas",
+        "surah": "(Yunus : 85)"
+    }
+    ,
+    {
+        "title": "Doa Mengelak dari Kezaliman (4)",
+        "arabic": "رَبِّ فَلَا تَجْعَلْنِي فِي الْقَوْمِ الظَّالِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, janganlah Engkau biarkan daku tinggal dalam kalangan kaum yang zalim itu",
+        "surah": "(Al-Mu'minun : 94)"
+    }
+    ,
+    {
+        "title": "Doa Memohon Keampunan",
+        "arabic": "رَبَّنَا أَتْمِمْ لَنَا نُورَنَا وَاغْفِرْ لَنَا إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhan kami! Sempurnakanlah bagi kami cahaya kami, dan limpahkanlah keampunan kepada kami; sesungguhnya Engkau Maha Kuasa atas tiap-tiap sesuatu",
+        "surah": "(At-Tahrim : 8)"
+    }
+    ,
+    {
+        "title": "Doa Keturunan yang Baik",
+        "arabic": "رَبِّ هَبْ لِي مِنْ لَدُنْكَ ذُرِّيَّةً طَيِّبَةً إِنَّكَ سَمِيعُ الدُّعَاءِ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku! Kurniakanlah kepadaku dari sisiMu zuriat keturunan yang baik; sesungguhnya Engkau sentiasa Mendengar (menerima) doa permohonan",
+        "surah": "(A-li Imran : 38)"
+    }
+    ,
+    {
+        "title": "Doa Tidak Terminta Perkara tidak Baik",
+        "arabic": "رَبِّ إِنِّي أَعُوذُ بِكَ أَنْ أَسْأَلَكَ مَا لَيْسَ لِي بِهِ عِلْمٌ وَإِلاًّ تَغْفِرْ لِي وَتَرْحَمْنِي أَكُنْ مِنَ الْخَاسِرِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku! Sesungguhnya aku berlindung kepadaMu daripada memohon sesuatu yang aku tidak mempunyai pengetahuan mengenainya; dan jika Engkau tidak mengampunkan dosaku, dan memberi rahmat kepadaku, nescaya menjadilah aku dari orang-orang yang rugi",
+        "surah": "(Hud : 47)"
+    }
+    ,
+    {
+        "title": "Doa Supaya Tetap Mendirikan Solat",
+        "arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلاَةِ وَمِنْ ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ ، رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku! Jadikanlah daku orang yang mendirikan sembahyang dan demikianlah juga zuriat keturunanku. Wahai Tuhan kami, perkenankanlah doa permohonanku; Wahai Tuhan kami! Berilah ampun bagiku dan bagi kedua ibu bapaku serta bagi orang-orang yang beriman, pada masa berlakunya hitungan amal dan pembalasan",
+        "surah": "(Ibrahim : 40/41)"
+    }
+    ,
+    {
+        "title": "Doa Supaya Berada di Jalan yang Benar",
+        "arabic": "رَبِّ أَدْخِلْنِي مُدْخَلَ صِدْقٍ وَأَخْرِجْنِي مُخْرَجَ صِدْقٍ وَاجْعَلْ لِي مِنْ لَدُنْكَ سُلْطَانًا نَصِيرًا",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku! Masukkanlah daku ke dalam urusan ugamaku dengan kemasukan yang benar lagi mulia, serta keluarkanlah daku daripadanya dengan cara keluar yang benar lagi mulia; dan berikanlah kepadaku dari sisiMu hujah keterangan serta kekuasaan yang menolongku",
+        "surah": "(Al-Isra' : 80)"
+    }
+    ,
+    {
+        "title": "Doa Supaya dikurniakan Anak",
+        "arabic": "رَبِّ لاَ تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku! Janganlah Engkau biarkan daku seorang diri (dengan tidak meninggalkan zuriat); dan Engkaulah jua sebaik-baik yang mewarisi",
+        "surah": "(Al-Anbiya' : 89)"
+    }
+    ,
+    {
+        "title": "Doa Penerang Hati",
+        "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي . وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي . يَفْقَهُوا قَوْلِي",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, lapangkanlah bagiku, dadaku; Dan mudahkanlah bagiku, tugasku; Dan lepaskanlah simpulan dari lidahku, Supaya mereka faham perkataanku",
+        "surah": "(Taha : 25,26,27)"
+    }
+    ,
+    {
+        "title": "Doa Tempat Berkat",
+        "arabic": "رَبِّ أَنْزِلْنِي مُنْزَلًا مُبَارَكًا وَأَنْتَ خَيْرُ الْمُنْزِلِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, turunkanlah daku di tempat turun yang berkat, dan Engkau adalah sebaik-baik Pemberi tempat",
+        "surah": "(Al-Mu'minun : 29)"
+    }
+    ,
+    {
+        "title": "Doa Menghadapi Musuh",
+        "arabic": "رَبِّ انْصُرْنِي عَلَى الْقَوْمِ الْمُفْسِدِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, tolonglah daku terhadap kaum yang melakukan kerosakan (menderhaka)",
+        "surah": "(Al-Ankabut : 30)"
+    }
+    ,
+    {
+        "title": "Doa Mohon Perlindungan dari Syaitan",
+        "arabic": "رَبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِينِ ، وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُرُونِ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, aku berlindung kepadaMu dari hasutan Syaitan-syaitan. Dan aku berlindung kepadaMu, wahai Tuhanku, supaya Syaitan-syaitan itu tidak menghampiriku",
+        "surah": "(An-Naml : 19)"
+    }
+    ,
+    {
+        "title": "Doa Kesyukuran (1)",
+        "arabic": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ الَّتِي أَنْعَمْتَ عَلَيَّ وَعَلَى وَالِدَيَّ وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ وَأَدْخِلْنِي بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, ilhamkanlah daku supaya tetap bersyukur akan nikmatMu yang Engkau kurniakan kepadaku dan kepada ibu bapaku, dan supaya aku tetap mengerjakan amal soleh yang Engkau redai; dan masukkanlah daku - dengan limpah rahmatMu - dalam kumpulan hamba-hambaMu yang soleh",
+        "surah": "(An-Naml : 19)"
+    }
+    ,
+    {
+        "title": "Doa Kesyukuran (2)",
+        "arabic": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ الَّتِي أَنْعَمْتَ عَلَيَّ وَعَلَى وَالِدَيَّ وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ وَأَصْلِحْ لِي فِي ذُرِّيَّتِي إِنِّي تُبْتُ إِلَيْكَ وَإِنِّي مِنَ الْمُسْلِمِينَ",
+        "spell": "",
+        "indo": "Maksudnya : Wahai Tuhanku, ilhamkanlah daku supaya tetap bersyukur akan nikmatmu yang engkau kurniakan kepadaku dan kepada ibu bapaku, dan supaya aku tetap mengerjakan amal soleh yang Engkau redai; dan jadikanlah sifat-sifat kebaikan meresap masuk ke dalam jiwa zuriat keturunanku. Sesungguhnya aku bertaubat kepadamu, dan sesungguhnya aku dari orang-orang Islam (yang tunduk patuh kepadamu)",
+        "surah": "(Al-Ahqaf : 15)"
+    }
+    ]
+}

@@ -1,0 +1,51 @@
+Sub SocialMediaMenu_ItemClick (Position As Int)
+    Dim sTitle, sURL As String
+	Select Position
+	    Case 0 
+		     If Mode = "FB" Then
+		        sURL = "https://m.facebook.com/paspusat"
+		     Else If Mode = "TT" Then
+		        sURL = "https://mobile.twitter.com/PASPusat"
+			 End If
+             OpenWebBrowser(sTitle,sURL)
+		Case 1
+		     sURL = "https://m.facebook.com/pages/Dewan-Ulamak-PAS-Pusat/112140085517515"
+             OpenWebBrowser(sTitle,sURL)
+		Case 2 
+			 If Mode = "FB" Then
+		        sURL = "https://m.facebook.com/DPPMalaysia"
+		     Else
+			    sURL = "https://mobile.twitter.com/DPPMalaysia"
+			 End If
+             OpenWebBrowser(sTitle,sURL)
+		Case 3	 
+		     sURL = "https://m.facebook.com/pages/Dewan-Muslimat-PAS-Pusat-DMPP/179950305417081"
+			 OpenWebBrowser(sTitle,sURL)
+	    Case 4 
+			 If Mode = "FB" Then
+		        sURL = "https://m.facebook.com/harakahdaily"
+			 Else
+			    sURL = "https://mobile.twitter.com/hdaily09" '/pakatanrakyat-tweets
+			 End If
+             OpenWebBrowser(sTitle,sURL)
+	    Case 5 	 
+			 If Mode = "FB" Then
+		        sURL = "https://m.facebook.com/nikaziz"
+		     Else		
+			    sURL = "https://mobile.twitter.com/nikabdulaziz"
+			 End If	
+             OpenWebBrowser(sTitle,sURL)
+	    Case 6 		 
+		     sURL = "https://m.facebook.com/abdulhadiawang"
+             OpenWebBrowser(sTitle,sURL)
+	    Case 7 
+			 If Mode = "FB" Then
+		        sURL = "https://m.facebook.com/ustaztitm"
+		     Else		
+			    sURL = "https://mobile.twitter.com/tuan_ibrahim"
+			 End If	
+             OpenWebBrowser(sTitle,sURL)
+	    Case Else
+		     Msgbox("Belum siap lagi daaaa !!!","A T T E N T I O N")
+	End Select		
+End Sub

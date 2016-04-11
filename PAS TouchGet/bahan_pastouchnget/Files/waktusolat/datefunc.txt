@@ -1,0 +1,122 @@
+<script type="text/javascript">
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //Months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+</script>
+
+
+<script type="text/javascript">
+<!--
+
+var m_names = new Array("January", "February", "March", 
+"April", "May", "June", "July", "August", "September", 
+"October", "November", "December");
+
+var d = new Date();
+var curr_date = d.getDate();
+var curr_month = d.getMonth();
+var curr_year = d.getFullYear();
+document.write(curr_date + "-" + m_names[curr_month] 
++ "-" + curr_year);
+
+//-->
+</script>
+
+
+
+<script type="text/javascript">
+<!--
+	var currentTime = new Date()
+	var hours = currentTime.getHours()
+	var minutes = currentTime.getMinutes()
+
+	if (minutes < 10)
+	minutes = "0" + minutes
+
+	var suffix = "AM";
+	if (hours >= 12) {
+	suffix = "PM";
+	hours = hours - 12;
+	}
+	if (hours == 0) {
+	hours = 12;
+	}
+
+	document.write("<b>" + hours + ":" + minutes + " " + suffix + "</b>")
+//-->
+</script>
+
+
+<script type="text/javascript">
+<!--
+	var currentTime = new Date()
+	var hours = currentTime.getHours()
+	var minutes = currentTime.getMinutes()
+
+	if (minutes < 10)
+	minutes = "0" + minutes
+
+	document.write("<b>" + hours + ":" + minutes + " " + "</b>")
+//-->
+</script>
+
+
+
+
+
+function ConvertTo24HoursFormat(timeIn12HoursFormat){
+        var tempDate = new Date("19/01/2012 " + timeIn12HoursFormat.toString());
+
+        if (!IsValid12HoursTimeFormat(timeIn12HoursFormat) || tempDate == "Invalid Date") {
+            alert("Invalid time, please check...");
+            return;
+        }
+
+        return tempDate.toTimeString().split(":")[0] + ":" + tempDate.toTimeString().split(":")[1];
+    }
+
+function ConvertTo12HoursFormat(timeIn24HoursFormat) {
+        var tempDate = new Date("19/01/2012 " + timeIn24HoursFormat.toString());
+
+        if (!IsValid24HoursTimeFormat(timeIn24HoursFormat) || tempDate == "Invalid Date") {
+            alert("Invalid time, please check...");
+            return;
+        }
+
+        var parsedTime = parseInt(GetNumericValue(tempDate.toTimeString().split(":")[0] + ":" + tempDate.toTimeString().split(":")[1]));
+        var minutes = tempDate.toTimeString().split(":")[1];
+
+        if (parsedTime > 1259) {
+            parsedTime = parsedTime - 1200;
+            var timeString = String(parsedTime),
+                hours = timeString.substring(0, timeString.length - 2),
+                minutes = timeString.substring(timeString.length - 2, timeString.length),
+                suffix = " P.M.";
+
+            return hours + ":" + minutes + suffix;
+        }
+        else {
+            var timeString = String(parsedTime),
+                hours = timeString.substring(0, timeString.length - 2),
+                suffix = " A.M.";
+            
+            if (hours == "12") suffix = " P.M.";
+
+            if (hours == "") hours = "12";
+
+            return hours + ":" + minutes + suffix;
+        }
+    }
+
+function GetNumericValue(alphaNumeric) {
+        var valid = "0123456789",
+            output = '';
+
+        for (var i = 0; i < alphaNumeric.length; i++)
+            if (valid.indexOf(alphaNumeric.charAt(i)) != -1)
+                output += alphaNumeric.charAt(i)
+
+        return output;
+    }

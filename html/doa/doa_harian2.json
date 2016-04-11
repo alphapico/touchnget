@@ -1,0 +1,275 @@
+{
+    'doas': [
+    {
+        "title": "Doa Masuk Tandas",
+        "arabic": "اللَّهُمَّ إنِّي أَعُوذُ بِك مِنْ الْخُبُثِ وَالْخَبَائِثِ",
+        "spell": "ALLAHUMMA INNII A'UUDZU BIKA MINAL KHUBUTSI WAL KHOBBAA-ITSI",
+        "indo": "Wahai Tuhanku, sesunguhnya aku berlindung kepadaMu dari kejahatan syetan laki-laki dan perempuan"
+    }
+    ,
+    {
+        "title": "Doa Keluar Tandas",
+        "arabic": "اَلْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنِّي الْأَذَى وَعَافَانِي",
+        "spell": "AL HAMDU LILLAAHIL LADZII ADZHABA 'ANNIL ADZAA WA 'AAFAANII",
+        "indo": "Segala puji bagi Allah, Dzat yang telah menghilangkan rasa sakit dariku dan menyehatkan aku"
+    }
+    ,
+    {
+        "title": "Doa Sebelum Berwudhu",
+        "arabic": "اَللَّهُمَّ اغْفِرْ لِيْ ذَنْبِيْ وَوَسِّعْ لِيْ فِيْ دَارِيْ وَبَارِكْ لِيْ فِيْ رِزْقِيْ",
+        "spell": "ALLAAHUMMAGHFIRLII DZANBII WA WASSI' LII FII DAARII WA BAARIK LII FII RIZQII",
+        "indo": "Wahai Tuhanku, ampunilah dosaku, lapangkanlah rumah-tanggaku dan berkahilah aku dalam rizqiku"
+    }
+    ,
+    {
+        "title": "Doa Sesudah Adzan",
+        "arabic": "اَللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيْلَةَ وَالْفَضِيْلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُوْدًا الَّذِيْ وَعَدْتَهُ",
+        "spell": "ALLAAHUMMA RABBA HAADZIHID DA'WATIT TAAMMATI WASH SHALAATIL QAA-IMATI AATI SAYYIDANAA MUHAMMADANIL WASIILATA WAL FAADILATA WAB'ATSHU MAQAAMAN MAHMUUDAL LADZII WA 'ADTAHU",
+        "indo": "Wahai Tuhanku, Tuhan yang mempunyai seruan yang sempurna ini dan shalat yang ditegakkan, berikanlah wasilah dan keutamaan kepada junjungan kami Nabi Muhammad, dan berikanlah kepadanya kedudukan yang terpuji, yang telah Engkau janjikan kepadanya. Dengan rahmat-Mu wahai Dzat Yang Paling Penyayang dari semua yang penyayang"
+    }
+    ,
+    {
+        "title": "Doa Memohonkan Ampun Orang Tua",
+        "arabic": "اللهم اغفرلي ولوالدى وارحمهما كما ربياني صغير",
+        "spell": "Allahummaghfirli wa liwalidayya warchamhumaa kamaa robbayaani shoghiiroo",
+        "indo": "Yaa Allah, ampunilah dosaku dan dosa kedua orang tuaku, dan sayangilah keduanya sebagaimana keduanya menyayangiku waktu kecil"
+    }
+    ,
+    {
+        "title": "Doa Sebelum Makan",
+        "arabic": "الَّلهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا، وَقِنَا عَذَابَ النَّارِ",
+        "spell": "ALLAAHUMMA BAARIK LANAA FIIMAA RAZAQTANA WA QINAA 'ADZAABAN NAARI",
+        "indo": "Wahai Tuhanku, berikanlah kepada kami apa yang Engkau rizkikan kepada kami, dan peliharalah kami dari siksa api neraka"
+    }
+    ,
+    {
+        "title": "Doa Memulai Makan/Minum",
+        "arabic": "بِسْمِ اللهِ الرَّحْمنِ الرَّحِيمِ",
+        "spell": "BISMIL LAAHIR RAHMAANIR RAHIIM",
+        "indo": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang"
+    }
+    ,
+    {
+        "title": "Doa Bila Terlupa Membaca Bismillah",
+        "arabic": "بِسْمِ اللهِ أَوَلَهُ وَآخِرَهُ",
+        "spell": "BISMILLAAHI AWWALAHU WA AAKHIRAHU",
+        "indo": "Dengan nama Allah pada permulaan hingga akhir"
+    }
+    ,
+    {
+        "title": "Doa Sesudah Makan",
+        "arabic": "الْحَمْدُللهِ الَّذِىْ اَطْعَمَنَا وَسَقَنَا وَجَعَلَنَا مُسْلِمِيْنَ",
+        "spell": "AL HAMDULILLAAHIL LLADZI ATH'AMANAA WA SAQAANAA WAJA'ALANAA MUSLIMINA",
+        "indo": "Segala puji bagi Allah, Dzqt yang telah memberi makan dan minum kepada kami, dan menjadikan kami orang yang berserah dari"
+    }
+    ,
+    {
+        "title": "Doa Keluar Rumah",
+        "arabic": "بِسْمِ اللهِ تَوَ كَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِاللهِ",
+        "spell": "BISMILLAAHI TAWAKKALTU 'ALALLAAHI LAA HAULA WALAA QUWWATA ILLAA BIL LAAHI",
+        "indo": "Dengan nama Allah aku bertawakkal kepada Allah, tiada daya upaya dan kekuatan kecuali dengan pertolongan Allah"
+    }
+    ,
+    {
+        "title": "Doa Ketika Bersin",
+        "arabic": "اَلْحَمْدُ للهِ رَبِّ الْعَالَمِيْنَ",
+        "spell": "AL HAMDU LILLAAHI RABBIL 'AALAMIINA",
+        "indo": "Segala puji bagi Allah Tuhan Semesta Alam"
+    }
+    ,
+    {
+        "title": "Mendoakan Orang yang Bersin",
+        "arabic": "يَرْحَمُكَ اللهِ",
+        "spell": "YARHAMUKAL LAAHU",
+        "indo": "Semoga Allah memberi rahmat kepadamu"
+    }
+    ,
+    {
+        "title": "Doa Jawaban Kepada yang Mendoakan Orang Bersin",
+        "arabic": "يَهْدِيكُمُ اللهُ وَيُصْلِحُ بَالَكُمْْ",
+        "spell": "YAHDIIKUMUL LAAHU WA YUSHLIHU BAALAKUM",
+        "indo": "Semoga Allah memberi petunjuk kepadamu dan membaguskan hatimu"
+    }
+    ,
+    {
+        "title": "Doa Ketika Mendapatkan Musibah",
+        "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُوْنَ",
+        "spell": "INNAA LIL LAAHI WA INNAA ILLAIHI RAAJI'UUNA",
+        "indo": "Sesungguhnya kami adalah kepunyaan Allah, dan sesungguhnya kepada-Nya lah kami akan kembali"
+    }
+    ,
+    {
+        "title": "Doa Sebelum Tidur",
+        "arabic": "بِاسْمِكَ اللّهُمَّ أَحْيَاوَأَمُوتُ",
+        "spell": "BISMIKA ALLAAHUMMA AHYAA WA AMUUTU",
+        "indo": "Dengan nama-Mu ya Allah aku hidup dan mati"
+    }
+    ,
+    {
+        "title": "Doa Bangun Tidur",
+        "arabic": "اَلْحَمْدُ ِللهِ الَّذِى أَحْيَانَا بَعْدَمَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+        "spell": "ALHAMDU LIL LAAHIL LADZII AHYAANAA BA'DA MAA AMAATANAA WA ILAIHIN NUSYUURU",
+        "indo": "Segala puji bagi Allah, Dzat yang telah menghidupkan kami kembali setelah mematikan kami, dan kepada-Nya lah tempat kembali"
+    }
+    ,
+    {
+        "title": "Doa Untuk Bayi Yang Baru Lahir",
+        "arabic": "أعِيْذكَ بكلِمَاتِ الله التآمَّةِ منْ كلِّ شيْطَانٍ وَهَآمّةٍ ومِنْ كلِّ عَينٍ لآمَّةٍ",
+        "spell": "U'IIDZUKA BI KALIMAATIL LAAHIT TAAMMATI MIN KULLI SYAITHAANIN WA HAAMMATIN WA MIN KULLI 'AININ LAAMMATIN",
+        "indo": "Aku lindungkan kamu dengan kalimat Allah yang sempurna dari segala gangguan syetan dan binatang serta dari pandangan mata yang membawa akibat buruk"
+    }
+    ,
+    {
+        "title": "Doa Ketika Menghadapi Kesusahan",
+        "arabic": "اللَّهُمَّ لا سَهلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً ، وَ أَنْتَ تَجْعَلُ الْحُزْنَ إِذَا شِئْتَ سَهْلاً",
+        "spell": "Allaahumma Laa Sahla Illaa Maa Ja’altahu Sahlaa Wa Anta Taj’alul Hazna Idza Syi’ta Sahlaa",
+        "indo": "Wahai Tuhanku, sesungguhnya aku berlindung kepada-Mu dari kebimbangan dan kesedihan. Dan aku berlindung kepada-Mu dari kelemahan dan kemalasan. Dan aku berlindung kepada-Mu dari sifat penakut dan kikir. Dan aku berlindung kepada-Mu dari lilitan hutang dan penindasan"
+    }
+    ,
+    {
+        "title": "Doa Ketika Marah",
+        "arabic": "اللهم اغفرلي ذنبي واذهب غيظ قلبي وأجرني من الشيطان الرجيم",
+        "spell": "ALLAHUMMAGHFIRLII DZANBII WA ADZHIB GHAIDLA QALBII WA AJIRNII MINASY SYAITHAANIRRAJIIMI",
+        "indo": "Wahai Tuhanku, ampunilah dosaku dan hilangkanlah akan kepanasan hatiku serta lepaskanlah aku dari godaan syetan yang terkutuk"
+    }
+    ,
+    {
+        "title": "Doa Dikala Ada Angin Ribut",
+        "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَأَعُوْذُ بِكَ مِنْ شَرِّهَا",
+        "spell": "Allahumma inni as-aluka khayraha, wa a’udzubika min syarriha",
+        "indo": "Ya Allah, sesungguhnya aku memohon kepada-Mu kebaikannya dan aku berlindung kepada-Mu dari keburukannya"
+    }
+    ,
+    {
+        "title": "Doa Sapu Jagad",
+        "arabic": "اللَّهُمَّ آتِنَا في الدُّنْيَا حَسَنَةً ، وَفِي الآخِرَةِ حَسَنَةً ، وَقِنَا عَذَابَ النَّارِ",
+        "spell": "ALLAAHUMMA RABBANAA AATINAA FID DUNYAA HASANATAN WAFIL AAHIRATI HASANATAN WA QINAA 'ADZAABAN NAARI",
+        "indo": "Wahai Tuhanku, wahai Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akherat (nanti), serta peliharalah kami dari siksa api neraka"
+    }
+    ,
+    {
+        "title": "Doa Menuju Masjid",
+        "arabic": "اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا وَفِي بَصَرِي نُورًا وَفِي سَمْعِي نُورًا وَعَنْ يَمِينِي نُورًا وَعَنْ يَسَارِي نُورًا وَفَوْقِي نُورًا وَتَحْتِي نُورًا وَأَمَامِي نُورًا وَخَلْفِي نُورًا وَعَظِّمْ لِي نُورً",
+        "spell": "ALLAAHUMMAJ'AL FII QALBII NUURAN WA FII BASHARII NUURAN WA FII SAM'II NUURAN WA'AYYAMIINII NUURAN WA AYYASAARII NUURAN WA FAWQII NUURON WA TAHTII NUURAN WA AMAAMII NUURAN WA KHOLFII NUURON WA AZHZHOMLII NUURON.",
+        "indo": "Wahai Tuhanku, Jadikanlah hatiku bercahaya, lisanku bercahaya, pendengaranku bercayaha, penglihatankupun bercahaya, belakangku bercahaya, hadapan bercahaya dan atas bawahku bercahaya. Wahai Tuhanku, berikanlah aku cahaya"
+    }    ,
+    {
+        "title": "Doa Masuk Masjid",
+        "arabic": "اللهم افتح لي أبواب رحـمتك",
+        "spell": "ALLAAHUMMAFTAH LII ABWAABA RAHMATIKA",
+        "indo": "Wahai Tuhanku, bukakanlah pintu rahmat-Mu untukku"
+    }
+    ,
+    {
+        "title": "Doa Keluar Masjid",
+        "arabic": "اللَّهُمَّ إِنِّى أَسْأَلُكَ مِنْ فَضْلِكَ",
+        "spell": "Alloohumma innii as-aluka min fadhlik",
+        "indo": "Yaa Allah aku mohon kepada-Mu akan karunia-Mu"
+    }
+    ,
+    {
+        "title": "Doa Berbuka Puasa",
+        "arabic": "اللَّهُمَّ لَكَ صُمْنَا وَعَلَى رِزْقِكَ أَفْطَرْناَ اللَّهُمَّ تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيْعُ الْعَلِيْمُ",
+        "spell": "ALLAAHUMMA LAKA SHUMTU WA 'ALAA RIZQIKA AFTHARTULLAHUMMA TAKOBBAL MINNA INNAKA ANTAS SAMII'UL 'ALIIMU",
+        "indo": "Wahai Tuhanku, kepada-Mu aku berpuasa, dan dengan rizqi-Mu aku berbuka dan karena-Mu lah aku bisa menyempurnakan (puasa ini). Sesungguhnya Engkau adalah Dzat Yang Maha Mendengar lagi Maha Mengetahui"
+    }
+    ,
+    {
+        "title": "Doa Mimpi Buruk",
+        "arabic": "أَللَّهُمَّ إِنِّى أَعُوْذُ بِكَ مِنْ عَمَلِ الشَّيْطَانِوَسَيِّئاَتِ اْلأَحْلاَمِ",
+        "spell": "ALLOHUMMA INNII A’UUDZUBIKA MIN ‘AMALISY SYAITHOON,WA SAYYI-AATIL A_HLAAM",
+        "indo": "Ya Alloh aku berlindung kepadaMu dari perbuatan syetan dan buruknya mimpi"
+    }
+    ,
+    {
+        "title": "Doa Ketika Merasa Takut Dan Kesepian Ketika Tidur",
+        "arabic": "أَعُوْذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ غَضَبِهِ وَعِقَابِهِ، وَشَرِّ عِبَادِهِ، وَمِنْ هَمَزَاتِ الشَّيَاطِيْنِ وَأَنْ يَحْضُرُوْنِ",
+        "spell": "Auudzu bikalimaatillaahit taammaati min ghodlobihi wa ‘iqoobihi, wa syarri ‘ibaadihi, wa min hamazaatisy syayaathiini wa an yahdluruun",
+        "indo": "Aku berlindung dengan kalimat Allah yang sempurna dari kemarahan dan siksaanNya, serta kejahatan hamba-hambaNya, dan dari godaan setan (bisikannya) serta jangan sampai mereka hadir (kepadaku)"
+    }
+    ,
+    {
+        "title": "Doa Memohon Dimatikan dan Dihidupkan sebagai Muslim",
+        "arabic": "بِاسْمِكَ اللّهُمَّ اَمُوتُ وَأَحْيَا",
+        "spell": "BISMIKA ALLAAHUMMA AMUUTU WA AHYAA",
+        "indo": "Dengan menyebut nama-Mu, wahai Tuhanku, aku mati dan aku hidup"
+    }
+    ,
+    {
+        "title": "Doa Ketika Bercermin",
+        "arabic": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِيْ فَحَسِّنْ خُلُقِيْ رواه ابن السنى",
+        "spell": "ALLAAHUMMA KAMAA KHASSANTA KHALQII FA HASSIN KHULUQII",
+        "indo": "Wahai Tuhanku, Engkaulah yang membaguskan kejadianku, maka baguskanlah budi pekertiku"
+    }
+    ,
+    {
+        "title": "Doa Ketika Hujan Turun",
+        "arabic": "أَللَّهُمَّ صَيِّباً نَافِعاً",
+        "spell": "ALLAAHUMMA SHABIYAAN NAAFI'AN",
+        "indo": "Wahai Tuhanku, semoga hujan yang Engkau turunkan ini dapat membawa manfaat"
+    }
+    ,
+    {
+        "title": "Doa Memakai Pakaian Baru",
+        "arabic": "اللّهُمَّ لَكَ الْحَمْدُ أَنتَ كَسَوْتَنِيهِ أَسْأَ لُكَ مِنْ خَيْرٍهِ وَخَيْرٍ مَا صُنِعَ لَهُ وََ أَعُوْذُبِكَ مِنْ شَرِّهِ وَ شَرِّ مَا صُنِعَلَهُ",
+        "spell": "ALLAHUMMA LAKAL HAMDU ANTA KASAUTANIIH, AS’ALUKA MIN KHAIRIHII WA KHAIRI MAA SHUNI’A LAH, WA A’UUDZU BIKA MIN SYARRIHII WA SYARRI MAA SHUNI’A LAH",
+        "indo": "Ya Allah, segala puji bagi-Mu, Engkau lah yang mengenakan pakaian ini kepadaku. Aku memohon kepada-Mu kebaikan dari pakaian ini dan kebaikan pemakaiannya. Aku berlindung kepada-Mu dari keburukan pakaian ini dan semua keburukan pemakaiannya"
+    }
+    ,
+    {
+        "title": "Doa Melepaskan Pakaian",
+        "arabic": "بِسْمِ اللهِ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ",
+        "spell": "BISMILLAAHIL LADZII LAA ILAAHA ILLAA HUWA",
+        "indo": "Dengan menyebut nama Allah yang tiada Tuhan (yang berhak disembah) selain Dia"
+    }
+    ,
+    {
+        "title": "Doa Memohon Dimatikan dan Dihidupkan sebagai Muslim",
+        "arabic": "بِاسْمِكَ اللّهُمَّ اَمُوتُ وَأَحْيَا",
+        "spell": "BISMIKA ALLAAHUMMA AMUUTU WA AHYAA",
+        "indo": "Dengan menyebut nama-Mu, wahai Tuhanku, aku mati dan aku hidup"
+    }
+    ,
+    {
+        "title": "Doa Sujud Sahwi",
+        "arabic": "سبحان الذي لا ينام ولا يسهو",
+        "spell": "SUBHAANA NALADZI LAA YANAAMU WA LA YASHUU",
+        "indo": "Maha Suci Dzat yang tidak pernah tidur dan tida pernah lupa"
+    }
+    ,
+    {
+        "title": "Memohon Dipelihara dari Siksa Neraka",
+        "arabic": "اللّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ (ثَلاَثَ مَرَّاتٍ",
+        "spell": "Allahumma qinii 'adzaabaka yauma tab'atsu 'ibaadak.(3X)",
+        "indo": "Ya Allah, peliharalah diriku dari siksa-Mu pada saat Engkau bangkitkan hamba-hamba-Mu.(3X)"
+    }
+    ,
+    {
+        "title": "Doa Memberi Salam",
+        "arabic": "اَلسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+        "spell": "ASSALAAMU 'ALAIKUM WA RAHMATUL LAAHI WA BARAKAATUH",
+        "indo": "Semoga keselamatan tetap kepadamu, teriring rahmat Allah dan berkah-Nya"
+    }
+    ,
+    {
+        "title": "Doa Menjawab Salam",
+        "arabic": "وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+        "spell": "WA'ALAIKUMUSSALAAMU WARAHMATULLAAHI WA BARAKAATUH",
+        "indo": "Dan semoga (pula) keselamatan tetap kepadamu, teriring rahmat Allah dan berkah-Nya"
+    }
+    ,
+    {
+        "title": "Doa Ketika Telingan Berdenging",
+        "arabic": "ذكر الله من ذكرني بخير",
+        "spell": "DZAKAROLLOOHU MAN DZAKARONNI BI KHOIRIN",
+        "indo": "Semoga Allah mengingat dengan baik pada orang yang ingat padaku"
+    }
+    ,
+    {
+        "title": "Doa Apabila Susah Tidur",
+        "arabic": "اللّهُمَّ غََارَتِ النَُّّجُومُ وَهَدَأتِ الْعُيُونُ وَأَنتَ حَيٌّ قَيُّْومٌ لاَّ تَأْخُذُكَ سِنَةٌ وََّلاَ نَوْمٌ يَاحَيُّ يَاقَيُّْمُ أَهْدِيْ لَيْلِي وَأَنِمْ عَيْنِي",
+        "spell": "ALLAHUMMA GHAARATIN NUJUUMU WA HADA’ATIL ‘UYUUNU WA ANTA HAYYUN QAYYUUMUL LAA TA’KHUDZUKA SINATUW WA LAA NAUUM, YAA HAYYU YAA QAYYUUMU AHDI’LAILII, WA ANIM ‘AINII",
+        "indo": "Ya Allah, bintang-bintang tenggelam dan semua mata tertidur lelap, sedangkan Engkau Mahahidup abadi lagi terus-menerus mengurus makhluk-Mu, Engkau tidak pernah terkena kantuk dan tidak pula tidur. Wahai Yang Mahahidup abadi lagi terus-menerus mengurus makhluk, tenangkanlah malamku dan pejamkanlah mataku."
+    }
+    ]
+}

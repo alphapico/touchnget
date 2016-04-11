@@ -1,0 +1,117 @@
+Sub NewsMenu_ItemClick (Position As Int)
+    Dim sTitle, sUrl As String
+	Select Position
+	    Case BERITAHARAKAH
+		     'Berita Harakah
+			 sTitle = "Berita Harakah"
+		     sUrl = "http://output83.rssinclude.com/output?type=direct&id=586529&hash=8d579275c36e2bd51a79f0b87e5465ff"
+             OpenWebBrowser(sTitle,sUrl)
+	    Case HARAKAHNEWS
+		     'Harakah News
+			 sTitle = "Harakah News"
+		     sUrl = "http://output46.rssinclude.com/output?type=direct&id=588665&hash=3c5cab81481265157ee06109d183dbac"
+		     OpenWebBrowser(sTitle,sUrl)
+	    Case PASPUSAT
+		     'PAS Pusat
+			 sTitle = "PAS Pusat"
+		     sUrl = "http://output96.rssinclude.com/output?type=direct&id=588836&hash=7548e954297321b251cc3c01d24a05e5"
+		     OpenWebBrowser(sTitle,sUrl)
+		Case ULAMAKPUSAT
+		     'Dewan Ulamak
+			 sTitle = "Dewan Ulamak PAS Pusat"
+		     sUrl = "http://output89.rssinclude.com/output?type=direct&id=588675&hash=24c7e6f7f646e8f1a373f92df1ed3c86"
+		     OpenWebBrowser(sTitle,sUrl)
+		Case PEMUDAPUSAT 
+		     'Dewan Pemuda
+			 sTitle = "Dewan Pemuda PAS Pusat"
+		     sUrl = "http://output27.rssinclude.com/output?type=direct&id=588681&hash=9eb416766615668d7b2f3599be6502e1"
+		     OpenWebBrowser(sTitle,sUrl)	 
+	    Case MUSLIMATPUSAT
+		     'Dewan Muslimat
+			 sTitle = "Dewan Muslimat PAS Pusat"
+		     sUrl = "http://output50.rssinclude.com/output?type=direct&id=588679&hash=6bfb676eb593d401df54e1feee6d2cfd"
+			 OpenWebBrowser(sTitle,sUrl)
+	    Case MURSYIDULAM
+		     'Mursyidul Am
+			 sTitle = "Mursyidul Am"
+		     sUrl = "http://output72.rssinclude.com/output?type=direct&id=588687&hash=87d91d41c5f1a535050b2572b1941e2b"
+		     OpenWebBrowser(sTitle,sUrl)		 
+	    Case PRESIDENPAS
+		     'Presiden PAS
+			 sTitle = "Presiden PAS"
+		     sUrl = "http://output70.rssinclude.com/output?type=direct&id=588684&hash=ff001746612801e336cfd14f11d46dea"
+		     OpenWebBrowser(sTitle,sUrl)
+	    Case KETUAPENERANGAN
+		     'Ketua Penerangan
+			 sTitle = "Ketua Penerangan"
+		     sUrl = "http://output64.rssinclude.com/output?type=direct&id=588668&hash=cf7dfc9d1076d19ecac99eff870192b1"
+		     OpenWebBrowser(sTitle,sUrl)	
+		Case BLOGPIMPINAN	 
+		     'Pimpinan
+			 sTitle = "Blog Pimpinan"
+		     sUrl = "http://output83.rssinclude.com/output?type=direct&id=586431&hash=fd04fb12e1739b7095707ce9015fdefa"
+		     OpenWebBrowser(sTitle,sUrl)
+		Case TRANUNGKITE
+		     'Tranungkite
+			 sTitle = "Tranungkite"
+			 'sUrl = "http://www.tranungkite.net/v12/backend.php"
+		     sUrl = "http://output82.rssinclude.com/output?type=direct&id=487033&hash=5d87ec94c793c41eeec617787c8fcab3"
+             OpenWebBrowser(sTitle,sUrl)	
+	    Case MALAYSIAKINI
+		     sTitle = "Malaysiakini"
+		     sUrl = "http://m.malaysiakini.com/bm"
+             OpenWebBrowser(sTitle,sUrl)
+		Case KEADILANDAILY
+		     'Keadilandaily
+			 sTitle = "KeadilanDaily"
+		     sUrl = "http://output58.rssinclude.com/output?type=direct&id=572101&hash=860765aa7e7d0b3e333e14af8017d2dd"
+             OpenWebBrowser(sTitle,sUrl)
+	    Case MEDIARAKANPR 
+		     sTitle = "Berita Rakan Pakatan Rakyat"
+		     sUrl = "http://output91.rssinclude.com/output?type=direct&id=586516&hash=63c53910f5346f3c49e3772fb17c632f"
+             OpenWebBrowser(sTitle,sUrl)
+	    Case MEDIANEGERIPR
+		     sTitle = "Berita Negeri Pakatan Rakyat"
+		     sUrl = "http://output20.rssinclude.com/output?type=direct&id=587051&hash=a9e7662db8b130e6ed6a6d4b50ae1961"
+             OpenWebBrowser(sTitle,sUrl)
+		Case MEDIAALTERNATIF
+		     'Detikdaily
+			 sTitle = "Berita Alternatif"
+		     sUrl = "http://output60.rssinclude.com/output?type=direct&id=586476&hash=b59393e879a14da121e83ced75e534e0"
+             OpenWebBrowser(sTitle,sUrl)
+		Case AKHBARNASIONAL
+			 sTitle = "Akhbar Nasional"
+		     sUrl = "http://output64.rssinclude.com/output?type=direct&id=586490&hash=0fc57a88fa1f0c3a419a1d96d6bc243a"
+             OpenWebBrowser(sTitle,sUrl)	 
+		Case BERNAMA
+		     'bernama
+			 sTitle = "Bernama"
+		     sUrl = "http://output81.rssinclude.com/output?type=direct&id=559641&hash=3d09b5b77d54225a9584d5b0aa1e21d8"
+             OpenWebBrowser(sTitle,sUrl)
+	    Case ISLAMWORLD	
+			 sTitle = "Dunia Islam"
+		     sUrl = "http://output37.rssinclude.com/output?type=direct&id=587056&hash=ea39a62b18b1e7a236915ffca069250d"
+             OpenWebBrowser(sTitle,sUrl)
+		Case MEDIAANTARABANGSA	 
+		     sTitle = "Media Antarabangsa"
+		     sUrl = "http://output78.rssinclude.com/output?type=direct&id=587060&hash=b172499b5fc0946dcba866b3f8327252"
+             OpenWebBrowser(sTitle,sUrl)	 
+	    Case ISLAMONLINE
+		     'Islamonline
+			 sTitle = "IslamOnline"
+		     sUrl = "http://output21.rssinclude.com/output?type=direct&id=559613&hash=132ffc7e270fce67e448d4f9ff904352"
+             OpenWebBrowser(sTitle,sUrl)
+		Case ALJAZEERA
+		     'Al-Jazeera
+			 sTitle = "Al-Jazeera"
+		     sUrl = "http://output36.rssinclude.com/output?type=direct&id=559650&hash=678d478c84cbeeb302b76b18a7cf319b"
+             OpenWebBrowser(sTitle,sUrl)	
+		Case PASNEGERI
+		     'Al-Jazeera
+			 sTitle = "Berita PAS Negeri"
+		     sUrl = "http://output47.rssinclude.com/output?type=direct&id=595357&hash=677597b0f950331813e764f648a9e974"
+             OpenWebBrowser(sTitle,sUrl)	 
+	    Case Else
+		     Msgbox("Belum siap lagi daaaa !!!","A T T E N T I O N")
+	End Select		
+End Sub

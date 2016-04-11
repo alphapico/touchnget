@@ -1,0 +1,18 @@
+Sub ExtrasMenu_ItemClick (Position As Int)
+	Select Position	
+		Case BUKUJINGGA_
+		     Dim sTitle As String = "Buku Jingga"
+			 Dim sUrl As String = "file:///android_asset/bukujingga/bukujingga.htm"
+		     OpenWebBrowser(sTitle,sUrl,False)
+		Case ILMUAMAL_
+		     Dim sTitle As String = "Ilmu & Amal"
+			 Dim sUrl As String = "http://output77.rssinclude.com/output?type=direct&id=587041&hash=dbcab84442b50e824c588ef0214fc6ca"
+		     OpenWebBrowser(sTitle,sUrl,False)
+	    Case BERITAIT_
+		     Dim sTitle As String = "Dunia IT"
+			 Dim sUrl As String = "http://output73.rssinclude.com/output?type=direct&id=587696&hash=0a24228f6f3011358cc9ce1c9bb4b3bc"
+		     OpenWebBrowser(sTitle,sUrl,False)			 
+	    Case Else
+		     Msgbox("Belum siap lagi daaaa !!!","A T T E N T I O N")
+	End Select		
+End Sub

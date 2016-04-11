@@ -1,0 +1,222 @@
+Sub wm1_Click
+	Select TVID
+	    Case WEBTV1 
+		     WMP("WebTV 1","mms://210.187.143.19/webtv1")
+	    Case TRGKINITV
+		     WMP("Terengganukini TV","mms://210.187.143.19/webtv2")
+		Case KELANTANTV 
+		     WMP("KelantanTV","mms://210.187.143.19/ktv") 
+		Case MAKMURTV 
+		     WMP("Maklumr TV","mms://210.187.143.19/pahangtv")	  
+		Case MPPASTV 
+		     WMP("MPPAS TV","mms://210.187.143.19/mppas")	 
+		Case AMANTV 
+		     WMP("Aman TV","mms://210.187.143.19/amantv")	  
+		Case EHSANTV 
+		     WMP("Ehsan TV","mms://210.187.143.19/ehsantv")	 
+		Case YOPTV 
+		     WMP("Yop TV","mms://210.187.143.19/yoptv") 
+		Case WEBTV3 
+		     WMP("WebTV 3","mms://210.187.143.19/webtv3") 
+	    Case TVSHURA
+		     WMP("TV Shura","mms://210.187.143.19/shura")		 
+	    Case SHAREISLAMTV 
+		     WMP("ShareIslam TV","mms://stream.watchislam.com/shareislam")	 
+		Case IKIMFM
+		     WMP("Radio Ikim.fm","mms://ucitv2.uthm.edu.my/radio2")	
+	    Case TVAH
+		     InternalPlayer("TV Al-Hijrah","rtsp://110.74.142.92/live/alhijrah_mqs.3gp")
+'		     WMP("TV Al-Hijrah","rtsp://110.74.142.92/live/alhijrah_mqs.3gp") 
+		Case BERNAMATV
+		     InternalPlayer("Bernama TV","rtsp://110.74.142.92/live/bernama_hqm.3gp")
+'		     WMP("Bernama TV","rtsp://110.74.142.92/live/bernama_hqm.3gp")	 
+		Case PRESSTV
+		     WMP("Press TV","mms://217.218.67.243/presstv")
+		Case MAKKAHLIVE	 
+		     WMP("Makkah Live","rtsp://38.96.148.75/Quran?MSWMExt=.asf")
+		Case MADINAHLIVE 
+		     WMP("Madinah Live","rtsp://38.96.148.75/Sunnah?MSWMExt=.asf")
+		Case RAMADHANCHANNEL
+		     WMP("Ramadhan Channel","mms://stream.watchislam.com/ramadan?MWSMExt=.asf")
+		Case SHARJAHTV
+		     WMP("Sharjah TV","mms://streamer5.securenetsystems.net/SMCTV")
+	End Select
+End Sub
+
+Sub ustream1_Click
+	Dim ChannelID, HomeURL, HtmlCode As String
+	Select TVID
+	    Case KELANTANTV 
+		     ChannelID = "139634"
+			 HomeURL = "http://www.ustream.tv/embed/139634?autoplay=True"
+		Case MAKMURTV 
+		     ChannelID = "11083843"
+		     HomeURL = "http://www.ustream.tv/embed/11083843?autoplay=True"	 
+		Case MPPASTV 
+		     ChannelID = "24049082"
+		     HomeURL = "http://www.ustream.tv/embed/24049082?autoplay=True"
+		Case EHSANTV 
+		     ChannelID = "10887783"
+		     HomeURL = "http://www.ustream.tv/embed/10887783?autoplay=True"
+		Case KINABALUTV 
+		     ChannelID = "7079342"
+		     HomeURL = "http://www.ustream.tv/embed/7079342?autoplay=True"
+		Case MAKKAHLIVE
+		     ChannelID = "10584902"
+		     HomeURL = "http://www.ustream.tv/embed/10584902?autoplay=True" 
+		Case ALMAJDTV 
+		     ChannelID = "5433846"
+			 HomeURL = "http://www.ustream.tv/embed/5433846?autoplay=True"
+		Case UAITV 
+		     ChannelID = "25574162"
+			 HomeURL = "http://www.ustream.tv/embed/25574162?autoplay=True"
+	    'Case WAUTV 
+		'     ChannelID = "25574162"
+		'	  HomeURL = "http://www.ustream.tv/embed/25574162?autoplay=True"		 
+		Case RTVKELANTAN 
+		     ChannelID = "27284657"
+			 HomeURL = "http://www.ustream.tv/embed/27284657?autoplay=True"	
+		Case PENANGTV 
+		     ChannelID = "27443892"
+			 HomeURL = "http://www.ustream.tv/embed/27443892?autoplay=True"		
+		Case TRGKINITV 
+		     ChannelID = "12795733"
+			 HomeURL = "http://www.ustream.tv/embed/12795733?autoplay=True"	 
+		Case BULETINONLINE 
+		     ChannelID = "27977340"
+			 HomeURL = "http://www.ustream.tv/embed/27977340?autoplay=True"	 
+	End Select
+	If ChannelID <> "" Then OpenUStream(ChannelID,TVName,HomeURL)
+End Sub
+
+Sub flash1_Click
+	Select TVID
+	    Case TVSELANGOR
+		     WMP("TV Selangor","rtmp://live2.selangorku.com/selangorlive2/channel1")
+		Case GUIDEUSTV
+		     WMP("GuideUs TV","rtmp://streamer.istreamlive.net/1_216_130_41/live")
+		Case PEACETV 
+		     WMP("Peace TV","rtmp://peace.fms.visionip.tv/live/b2b-peace_asia-live-25f-4x3-sdh_1")
+	    Case HUDATV
+		     WMP("Huda TV","rtmp://204.45.81.227:1935/hudatvlive/hudatv")
+	    Case ISLAMCHANNELTV
+		     WMP("IslamChannel TV","rtmp://wowza02.sharp-stream.com/islamtv/islamtv/")	 
+	    Case ALJAZEERAAR
+		     WMP("Al-Jazeera (Arabic)","rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_arabic_1")		
+		Case ALJAZEERAEN
+		     WMP("Al-Jazeera (English)","http://aj.lsops.net/live/aljazeer_en_high.sdp/playlist.m3u8")	 
+		Case PRESSTV
+			 WMP("Press TV","rtmp://cp140005.live.edgefcs.net:80/live/PressTV_4@26409")	 
+		Case MAKKAHLIVE 
+		     WMP("Makkah Live","rtmp://69.65.38.152/besmallah/cam4")
+		Case MADINAHLIVE
+		     WMP("Madinah Live","rtmp://69.65.38.152/besmallah/cam3")
+		Case IQRAATV
+		     WMP("Iqraa TV","rtmpt://fl1.viastreaming.net/iqraatv/livestream")
+		Case RAMADHANCHANNEL
+		     WMP("Ramadhan Channel","rtmp://stream.watchislam.com:1935/bridgetofaith/quran")
+		Case ALHIWARTV
+		     WMP("Al-Hiwar TV","rtmp://209.236.66.43/livephgr/livestream")	 
+	End Select
+End Sub
+
+Sub youtube1_Click
+	Dim HomeURL As String
+	Select TVID
+		Case TRGKINITV
+		     HomeURL = "https://m.youtube.com/user/terengganukini"
+		Case KELANTANTV 
+		     HomeURL = "https://m.youtube.com/user/myKelantanTV"
+		Case MAKMURTV
+			 HomeURL = "https://m.youtube.com/user/pahangkini"
+		Case MPPASTV 
+			 HomeURL = "https://m.youtube.com/user/mppas2008"
+		Case AMANTV	 
+			 HomeURL = "https://m.youtube.com/user/urusetiapeneranganke"
+		Case EHSANTV	 
+			 HomeURL = "https://m.youtube.com/user/ehsantv"
+		Case TVPAS  
+		     HomeURL = "https://m.youtube.com/user/tvpas09"
+		Case YOPTV  
+		     HomeURL = "https://m.youtube.com/user/yoperaktv" 
+		Case BULETINONLINE	 
+			 HomeURL = "https://m.youtube.com/user/buletinonline"	 
+		Case KINABALUTV 
+			 HomeURL = "https://m.youtube.com/user/kinabalutv"	 
+	    Case IMPIANTV 
+			 HomeURL = "https://m.youtube.com/user/ImpianTV"		 
+	    Case TVSELANGOR 
+			 HomeURL = "https://m.youtube.com/user/TVSelangor09"
+		Case MKINITV 
+			 HomeURL = "https://m.youtube.com/user/malaysiakini"	
+		Case WAUTV 
+			 HomeURL = "http://m.youtube.com/user/TVWau"
+	    Case RTVKELANTAN 
+			 HomeURL = "https://m.youtube.com/user/RTVKelantan"		 
+		Case PENANGTV	 
+			 HomeURL = "https://m.youtube.com/user/penangtv"
+		Case DPPMALAYSIA 
+			 HomeURL = "https://m.youtube.com/user/DPPMalaysia"		 
+		Case MAKKAHLIVE
+		     webbrowser2.Title = TVName
+		     webbrowser2.CurrentUrl = ""
+	         webbrowser2.HomeURL = "http://www.youtube.com/embed/S2PriQcCG38?rel=0&amp;autoplay=1"
+			 StartActivity(webbrowser2)
+	    Case MADINAHLIVE
+		     webbrowser2.Title = TVName
+		     webbrowser2.CurrentUrl = ""
+	         webbrowser2.HomeURL = "http://www.youtube.com/embed/KonSX32x5YU?rel=0&autoplay=1"
+			 StartActivity(webbrowser2)
+		Case ALJAZEERAEN 
+		     webbrowser2.Title = TVName
+		     webbrowser2.CurrentUrl = ""
+	         webbrowser2.HomeURL = "http://www.youtube.com/embed/e93MaEwrsfc?rel=0&amp;autoplay=1"
+			 StartActivity(webbrowser2)
+	    Case Else
+		     Msgbox("Belum siap lagi daaaa !!!","A T T E N T I O N")
+	End Select
+	If HomeURL <> "" Then OpenYoutube(HomeURL)
+End Sub
+
+Sub facebook1_Click
+	Dim HomeURL As String
+	Select TVID
+	    Case WEBTV1 
+			 HomeURL = "https://m.facebook.com/pages/WebTV-PAS/221434224590749"
+	    Case TRGKINITV 
+			 HomeURL = "https://m.facebook.com/pages/Terengganu-Kini/238473629539168"
+	    Case KELANTANTV		 
+			 HomeURL = "https://m.facebook.com/pages/Kelantan-TV-News/136171306461158" 
+		Case AMANTV		 
+			 HomeURL = "https://m.facebook.com/pages/Aman-TV/247636501961665"
+	    Case MAKMURTV 
+		     HomeURL = "https://m.facebook.com/tvmakmur"
+		Case EHSANTV
+			 HomeURL = "https://m.facebook.com/ehsantv"
+		Case TVPAS	 
+			 HomeURL = "https://m.facebook.com/tvpas"
+		Case YOPTV	 
+			 HomeURL = "https://m.facebook.com/pasperak" 
+		Case WEBTV3 
+			 HomeURL = "https://m.facebook.com/pages/WebTV-PAS/221434224590749" 
+		Case KINABALUTV
+			 HomeURL = "https://m.facebook.com/kinabalutv.sabah"
+		Case TVSELANGOR
+			 HomeURL = "https://m.facebook.com/MediaSelangorku"		
+		Case UAITV
+		     HomeURL = "https://m.facebook.com/Ustaz.Azhar.Idrus.Original"
+		Case BULETINONLINE 
+			 HomeURL = "https://m.facebook.com/pages/Buletin-Online/226199907418379"	
+	    Case IMPIANTV
+			 HomeURL = "https://m.facebook.com/TvImpianHqOfficial"	
+		Case WAUTV
+			 HomeURL = "https://m.facebook.com/TVWau"	
+		Case RTVKELANTAN 
+			 HomeURL = "https://m.facebook.com/pages/RTV-Kelantan/237318232948776"	 
+		Case DPPMALAYSIA
+		     HomeURL = "https://m.facebook.com/DPPMalaysia"
+	    Case Else
+		     Msgbox("Belum siap lagi daaaa !!!","A T T E N T I O N")		 
+	End Select
+	If HomeURL <> "" Then OpenFacebook(HomeURL)
+End Sub

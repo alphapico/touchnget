@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Yearly Prayer Timetable </title>
+	<style>
+		body, tr, form {font-family: tahoma; font-size: 12px; color: #404040; text-align: center; margin: 0; padding: 0}
+		pre {font-family: courier, serif, size: 10pt; margin: 0px 8px;}
+		input {font-size: 12px;}
+		.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px;}
+		.caption {font-size: 20px; color: #d95722; text-align: center; width: 10em;}
+		.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }
+		.arrow:hover {text-decoration: underline;}
+		.command {font-weight: bold; text-decoration: none; color: #AAAAAA; }
+		.command:hover {text-decoration: underline;}
+		.timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; margin: 0 auto;}
+		.timetable td {border-width: 1px; border-spacing: 1px; padding: 1px; border-style: inset; border-color: #CCCCCC;}
+		.head-row {color: black; background-color: #eef;}
+		.today-row {background-color: #F8F7F4; color: black}
+	</style>
+</head>
+
+<body>
+
+<script type="text/javascript" src="file:///android_asset/waktusolat/PrayTimes.js"></script>
+<table align="center">
+<tr>
+	<td id="table-title" class="caption"></td>
+</tr>
+</table>
+<table id="timetable" class="timetable" width="100%">
+	<tbody></tbody>
+</table>
+
+<br/>
+
+<script type="text/javascript">
+
+//	var date = new Date();
+//	$('year').value = date.getFullYear();
+
+        var timeFormat = 1; 
+
+	update();
+
+	function update() {
+		var lat = $('latitude').value;
+		var lng = $('longitude').value;
+		var timeZone = $('timezone').value;
+		var dst = $('dst').value;
+		var year = $('year').value;
+		var method = $('method').value;
+
+                var title = year;
+
+		$('table-title').innerHTML = title;
+		makeTable(method, year, lat, lng, timeZone, dst);
+	}
+
+	function makeTable(method, year, lat, lng, timeZone, dst) {
+                var items = {day: 'Day', fajr: 'Fajr', sunrise: 'Sunrise', 
+					dhuhr: 'Dhuhr', asr: 'Asr', // sunset: 'Sunset', 
+					maghrib: 'Maghrib', isha: 'Isha'};
+
+                var monthNames = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May',
+				           'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+
+                var tbody = document.createElement('tbody');
+		tbody.appendChild(makeTableRow(items, items, 'head-row'));
+
+		var date = new Date(year, 0, 1);
+		var endDate = new Date(1*year+ 1, 0, 1);
+
+		prayTimes.setMethod(method);
+
+                var format = timeFormat ? '12h' : '24h';
+
+		while (date < endDate) {
+			var times = prayTimes.getTimes(date, [lat, lng], timeZone, dst, format);
+			var day = date.getDate();
+			times.day = monthNames[date.getMonth()]+ ' ' + ((day <10) ? '0' + day : day);
+
+                        var today = new Date(); 
+                        var isToday = (date.getMonth() == today.getMonth()) && (date.getDate() == today.getDate());
+			var klass = isToday ? 'today-row' : '';   
+
+			tbody.appendChild(makeTableRow(times, items, klass));
+
+			date.setDate(date.getDate()+ 1);  // next day
+		}
+		removeAllChild($('timetable'));
+		$('timetable').appendChild(tbody);
+	}
+
+        // make a table row
+	function makeTableRow(data, items, klass) {
+		var row = document.createElement('tr');
+		for (var i in items) {
+			var cell = document.createElement('td');
+			cell.innerHTML = data[i];
+			cell.style.width = i=='day' ? '2.5em' : '3.7em';
+			row.appendChild(cell);
+		}
+		row.className = klass;
+		return row;		
+	}
+
+	// remove all children of a node
+	function removeAllChild(node) {
+		if (node == undefined || node == null)
+			return;
+
+		while (node.firstChild)
+			node.removeChild(node.firstChild);
+	}
+
+        // return month full name
+	function monthFullName(month) {
+		var monthName = new Array('January', 'February', 'March', 'April', 'May', 'June', 
+					  'July', 'August', 'September', 'October', 'November', 'December');
+		return monthName[month];
+	}
+
+	function $(id) {
+		return document.getElementById(id);
+	}
+
+</script>
+
+</body>
+</html>
+
+
+

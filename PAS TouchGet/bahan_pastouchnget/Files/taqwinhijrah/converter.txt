@@ -1,0 +1,449 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="description" content="A great information site about Islam and Muslims in text,audio and video. Also, a good reference for non-Muslims who are searching about Islam, Muslims, Prophet Muhammed(pbuh), other prophets (e.g. Jesus, Mousa) and religions (Christianity, Judaism, Buddism) ">
+<meta name="Keywords" content="Islam Allah God Religion Muslim Mohammed Muhammad Prophet Arab American Jesus Christianity Judaism Jew Catholic Real Audio Quran Hadith Imam Islam Islam Salat Interest Islamic Islamiyet">
+<title>Hijri Converter</title>
+
+<script>
+
+function weekDay(wdn){
+					if(wdn==0){
+						return "Monday"
+						}
+					if(wdn==1){
+						return "Tuesday"
+						}
+					if(wdn==2){
+						return "Wednesday"
+						}
+					if(wdn==3){
+						return "Thursday"
+						}
+					if(wdn==4){
+						return "Friday"
+						}
+					if(wdn==5){
+						return "Saturday"
+						}
+					if(wdn==6){
+						return "Sunday"
+						}
+	return ""
+
+}
+
+function isnumeric(num)
+  {
+    var strlen = num.length
+    var i
+    for ( i = 0; i < strlen ; ++i )
+    {
+      //if (!((num.charAt(i) >= '0') && (num.charAt(i)<='9') || (num.charAt(i)=='.')))
+      if (!((num.charAt(i) >= '0') && (num.charAt(i)<='9') || (num.charAt(i)=='.') || (num.charAt(i)=='-')))
+      {
+           return false;
+      }
+    }
+  }
+
+
+
+</script>
+
+</head>
+
+<body>
+<form name="Hijri">
+<table width="330" border="0" align="center" cellpadding="0" cellspacing="0" style="border: 1px solid #dfdfdf">
+    <tr valign="top">
+                    <td align="center" style="border-bottom: 1px dotted #dfdfdf"> <span class="secondary-header"><img border="0" src="http://www.islamicity.com/ps/islamicityLogo.jpg" width="150" height="39"><br>
+                      <font face="Times New Roman"><b>
+                      <font size="4">Hijri Date Converter
+                      </font>
+                      </b>
+                      <font size="3" align="center"><br>
+
+                      Today's Date: <SCRIPT>
+			var mydate=new Date()
+			var year=mydate.getYear()
+			var day=mydate.getDay()-1
+			var wday=weekDay(day)
+			var month=mydate.getMonth()+1
+				if (month<10)
+				month="0"+month
+			var daym=mydate.getDate()
+				if (daym<10)
+				daym="0"+daym
+				document.write("<font color='#336699'>"+wday+", "+month+"/"+daym+"/"+year+"</font>")
+			</SCRIPT>
+                      </font></span> </font> </td>
+                  </tr>
+	<tr valign="top">
+
+      <td style="border-bottom: 1px dotted #dfdfdf"> &nbsp;
+        <table width="60%" border="0" align="center" cellpadding="0" cellspacing="0" style="border: 1px solid #cccccc">
+
+					<tr>
+                          <td style="padding: 5px" colspan="3" align="center" bgcolor="#C0C0C0">
+                        <b>Gregorian Calender</b>
+						</td></tr>
+
+					<tr>
+                          <td style="padding: 5px" bgcolor="#F6F6F6">
+                        Month
+						</td><td style="padding: 5px" bgcolor="#F6F6F6">
+                        Day
+              			</td><td style="padding: 5px" bgcolor="#F6F6F6">
+                        Year
+             			</td></tr>
+
+					<tr>
+                          <td style="padding: 5px" height="35" bgcolor="#F6F6F6">
+              			<SELECT name="CMonth" size="1">
+                			<OPTION value=1 selected>01:January</OPTION>
+                			<OPTION value=2>02:February</OPTION>
+                			<OPTION value=3>03:March</OPTION>
+                			<OPTION value=4>04:April</OPTION>
+                			<OPTION value=5>05:May</OPTION>
+                			<OPTION value=6>06:June</OPTION>
+                			<OPTION value=7>07:July</OPTION>
+                			<OPTION value=8>08:August</OPTION>
+                			<OPTION value=9>09:September</OPTION>
+                			<OPTION value=10>10:October</OPTION>
+                			<OPTION value=11>11:November</OPTION>
+                			<OPTION value=12>12:December</OPTION>
+              			</SELECT>
+						</td><td style="padding: 5px" height="35" bgcolor="#F6F6F6">
+              			<SELECT name="CDay" size="1">
+                			<OPTION value=1 selected>1</OPTION>
+                			<OPTION value=2>2</OPTION>
+                			<OPTION value=3>3</OPTION>
+                			<OPTION value=4>4</OPTION>
+                			<OPTION value=5>5</OPTION>
+                			<OPTION value=6>6</OPTION>
+                			<OPTION value=7>7</OPTION>
+                			<OPTION value=8>8</OPTION>
+                			<OPTION value=9>9</OPTION>
+                			<OPTION value=10>10</OPTION>
+               				<OPTION value=11>11</OPTION>
+                			<OPTION value=12>12</OPTION>
+                			<OPTION value=13>13</OPTION>
+                			<OPTION  value=14>14</OPTION>
+                			<OPTION value=15>15</OPTION>
+                			<OPTION value=16>16</OPTION>
+                			<OPTION value=17>17</OPTION>
+                			<OPTION value=18>18</OPTION>
+                			<OPTION value=19>19</OPTION>
+                			<OPTION value=20>20</OPTION>
+                			<OPTION value=21>21</OPTION>
+                			<OPTION value=22>22</OPTION>
+                			<OPTION value=23>23</OPTION>
+                			<OPTION value=24>24</OPTION>
+                			<OPTION value=25>25</OPTION>
+                			<OPTION value=26>26</OPTION>
+                			<OPTION value=27>27</OPTION>
+                			<OPTION value=28>28</OPTION>
+                			<OPTION value=29>29</OPTION>
+                			<OPTION value=30>30</OPTION>
+                			<OPTION value=31>31</OPTION>
+						</SELECT>
+              			</td><td style="padding: 5px" height="35" bgcolor="#F6F6F6">
+              			<INPUT value=2012 name="CYear" size="6">
+             			</td></tr>
+
+            		<tr>
+              			  <td style="padding: 5px" colspan="3" align="center" height="37" bgcolor="#F6F6F6">
+                            <INPUT onclick=GregToIsl(this.form) type=button value="Gregorian to Hijri Date" name="GtoH">
+                          </td>
+                    </tr>
+
+            		<tr>
+              			  <td style="padding: 5px" height="25">
+                          </td>
+              			  <td style="padding: 5px" height="25"></td>
+              			  <td style="padding: 5px" height="25"></td>
+                    </tr>
+
+            		<tr>
+              			  <td colspan="3" bgcolor="#C0C0C0" align="center" bordercolor="#000000" height="30">
+                            <b>Hijri/Islamic Calender</b></td>
+                    </tr>
+
+            		<tr>
+                          <td bgcolor="#F6F6F6" height="22">
+                        Month
+                			</td><td bgcolor="#F6F6F6" height="22">
+                            Day
+                			</td><td bgcolor="#F6F6F6" height="22">
+                            Year
+                			</td></tr>
+
+            		<tr>
+                          <td height="35" bgcolor="#F6F6F6">
+                		<SELECT name="HMonth" size="1">
+                  				<OPTION value=1 selected>01:Muharram</OPTION>
+                  				<OPTION value=2>02:Safar</OPTION>
+                  				<OPTION value=3>03:Rabi Al-Awwal</OPTION>
+                  				<OPTION value=4>04:Rabi Al-Thani</OPTION>
+                  				<OPTION value=5>05:Jumada Al-Awwal</OPTION>
+                  				<OPTION value=6>06:Jumada Al-Thani</OPTION>
+                  				<OPTION value=7>07:Rajab</OPTION>
+                  				<OPTION value=8>08:Sha'ban</OPTION>
+                  				<OPTION value=9>09:Ramadan</OPTION>
+                  				<OPTION value=10>10:Shawwal</OPTION>
+                  				<OPTION value=11>11:Dhul Qa'idah</OPTION>
+                  				<OPTION value=12>12:Dhul Hijjah</OPTION>
+                			</SELECT>
+                			</td><td height="35" bgcolor="#F6F6F6">
+                			<SELECT name="HDay" size="1">
+                  				<OPTION value=1 selected>1</OPTION>
+                  				<OPTION value=2>2</OPTION>
+                  				<OPTION value=3>3</OPTION>
+                  				<OPTION value=4>4</OPTION>
+                  				<OPTION value=5>5</OPTION>
+                  				<OPTION value=6>6</OPTION>
+                  				<OPTION value=7>7</OPTION>
+                  				<OPTION value=8>8</OPTION>
+                  				<OPTION value=9>9</OPTION>
+                  				<OPTION value=10>10</OPTION>
+                  				<OPTION value=11>11</OPTION>
+                  				<OPTION value=12>12</OPTION>
+                  				<OPTION value=13>13</OPTION>
+                  				<OPTION value=14>14</OPTION>
+                  				<OPTION value=15>15</OPTION>
+                  				<OPTION value=16>16</OPTION>
+                  				<OPTION value=17>17</OPTION>
+                  				<OPTION  value=18>18</OPTION>
+                  				<OPTION value=19>19</OPTION>
+                  				<OPTION value=20>20</OPTION>
+                  				<OPTION value=21>21</OPTION>
+                  				<OPTION value=22>22</OPTION>
+                  				<OPTION value=23>23</OPTION>
+                  				<OPTION value=24>24</OPTION>
+                  				<OPTION value=25>25</OPTION>
+                  				<OPTION value=26>26</OPTION>
+                  				<OPTION value=27>27</OPTION>
+                  				<OPTION value=28>28</OPTION>
+                  				<OPTION value=29>29</OPTION>
+                  				<OPTION value=30>30</OPTION>
+                			</SELECT>
+                			</td><td height="35" bgcolor="#F6F6F6">
+                			<INPUT name="HYear" size="6">
+                			</td></tr>
+
+            		<tr>
+              			  <td colspan="3" align="center" height="37" bgcolor="#F6F6F6">
+                            <INPUT onclick=IslToGreg(this.form) type=button value="Hijri to Gregorian Date" name="HtoG">
+                          </td>
+                    </tr>
+          		</table>&nbsp;
+      </td></tr>
+		<tr>
+			<td align="center" class="secondary-header"><br>
+			 Day of the Week:
+            <INPUT name="wd" size="12">
+        <br>
+        <INPUT style="visibility: hidden" name="JD" >
+        <br>
+                    </td>
+    	</tr>
+	</table>
+                <br>
+                <br>
+                <br>
+              </form>
+
+<SCRIPT language=JavaScript>
+
+function intPart(floatNum){
+if (floatNum< -0.0000001){
+	 return Math.ceil(floatNum-0.0000001)
+	}
+return Math.floor(floatNum+0.0000001)
+}
+
+function GregToIsl(arg) {
+
+		if(gvalidate()==false){
+		return false
+		}
+
+	d=parseInt(arg.CDay.value)
+	m=parseInt(arg.CMonth.value)
+	y=parseInt(arg.CYear.value)
+	delta=0
+
+					if ((y>1582)||((y==1582)&&(m>10))||((y==1582)&&(m==10)&&(d>14)))
+						{
+//added +delta on jd to comply isna rulling
+						jd=intPart((1461*(y+4800+intPart((m-14)/12)))/4)+intPart((367*(m-2-12*(intPart((m-14)/12))))/12)-
+	intPart( (3* (intPart(  (y+4900+    intPart( (m-14)/12)     )/100)    )   ) /4)+d-32075+delta
+						}
+						else
+						{
+//added +delta on jd to comply isna rulling
+						jd = 367*y-intPart((7*(y+5001+intPart((m-9)/7)))/4)+intPart((275*m)/9)+d+1729777+delta
+						}
+					arg.JD.value=jd
+//added -delta on jd1 to comply isna rulling
+					jd1=jd-delta
+					arg.wd.value=weekDay(jd1%7)
+					l=jd-1948440+10632
+					n=intPart((l-1)/10631)
+					l=l-10631*n+354
+					j=(intPart((10985-l)/5316))*(intPart((50*l)/17719))+(intPart(l/5670))*(intPart((43*l)/15238))
+					l=l-(intPart((30-j)/15))*(intPart((17719*j)/50))-(intPart(j/16))*(intPart((15238*j)/43))+29
+					m=intPart((24*l)/709)
+					d=l-intPart((709*m)/24)
+					y=30*n+j-30
+
+	arg.HDay.value=d
+	arg.HMonth.value=m
+	arg.HYear.value=y
+}
+function IslToGreg(arg) {
+
+		if(hvalidate()==false){
+		return false
+		}
+
+	d=parseInt(arg.HDay.value)
+	m=parseInt(arg.HMonth.value)
+	y=parseInt(arg.HYear.value)
+	delta=0
+//added delta=1 on jd to comply isna rulling for hajj 2007
+	jd=intPart((11*y+3)/30)+354*y+30*m-intPart((m-1)/2)+d+1948440-385-delta
+	arg.JD.value=jd
+	arg.wd.value=weekDay(jd%7)
+					if (jd> 2299160 )
+						{
+						 l=jd+68569
+						 n=intPart((4*l)/146097)
+						l=l-intPart((146097*n+3)/4)
+						 i=intPart((4000*(l+1))/1461001)
+						l=l-intPart((1461*i)/4)+31
+						 j=intPart((80*l)/2447)
+						d=l-intPart((2447*j)/80)
+						l=intPart(j/11)
+						m=j+2-12*l
+						y=100*(n-49)+i+l
+						}
+					else
+						{
+						 j=jd+1402
+						 k=intPart((j-1)/1461)
+						 l=j-1461*k
+						 n=intPart((l-1)/365)-intPart(l/1461)
+						 i=l-365*n+30
+						j=intPart((80*i)/2447)
+						d=i-intPart((2447*j)/80)
+						i=intPart(j/11)
+						m=j+2-12*i
+						y=4*k+n+i-4716
+						}
+
+	arg.CDay.value=d
+	arg.CMonth.value=m
+	arg.CYear.value=y
+
+}
+</script>
+
+<script Language="JavaScript">
+//adji added
+var cdays=new Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+var hdays=new Array(30, 29, 30, 29, 30, 29, 30, 29, 30, 29, 30, 29);
+
+function gvalidate()
+{
+	var yleap,d,m,y,m1,m2,m3,leap;
+	d=document.Hijri.CDay.value;
+	m=document.Hijri.CMonth.value;
+	y=document.Hijri.CYear.value;
+
+	if(document.Hijri.CYear.value=="")
+	{
+ 		alert("Gregorian Year can be not empty");
+		return false;
+		document.Hijri.CYear.focus();
+	}
+
+
+	if(isnumeric(y)==false)
+	{
+		alert("Gregorian Year should be in numerics")
+		document.Hijri.CYear.focus();
+		return false;
+	}
+
+	m1=y%4;
+	m2=y%100;
+	m3=y%400;
+	leap=((m==2)&&((m3==0)||((m1==0)&&(m2!=0))))?1:0;
+	if(d>(cdays[m-1]+leap))
+	{
+		alert(m+"/"+d+"/"+y+" is not a valid Gregorian date.");
+		return false;
+		document.Hijri.CDay.focus();
+	}
+
+	return true;
+}
+
+
+//adji added
+</script>
+
+</script>
+
+<script Language="JavaScript">
+//adji added
+var hdays=new Array(30, 29, 30, 29, 30, 29, 30, 29, 30, 29, 30, 29);
+
+function hvalidate()
+{
+	var dh,mh,yh,m1h,leaph;
+	dh=document.Hijri.HDay.value;
+	mh=document.Hijri.HMonth.value;
+	yh=document.Hijri.HYear.value;
+
+	if(document.Hijri.HYear.value=="")
+	{
+		alert("Hijri Year can not be empty");
+		return false;
+		document.Hijri.HYear.focus();
+	}
+
+	if(isnumeric(yh)==false)
+	{
+		alert("Hijri Year should be in numerics")
+		document.Hijri.HYear.focus();
+		return false;
+	}
+
+
+	m1h=yh%30;
+
+   //the 2nd, 5th, 7th, 10th, 13th, 16th, 18th, 21st, 24th, 26th, and 29th years are leap years.
+
+	leaph=((mh==12)&&(m1h==2||m1h==5||m1h==7||m1h==10||m1h==13||m1h==16||m1h==18||m1h==21||m1h==24||m1h==26||m1h==29))?1:0;
+	if(dh>(hdays[mh-1]+leaph))
+	{
+		alert(mh+"/"+dh+"/"+yh+" is not a valid Hijri date.");
+		return false;
+		document.Hijri.HDay.focus();
+	}
+
+	return true;
+}
+
+
+//adji added
+</script>
+
+</body>
+
+</html>
